@@ -68,7 +68,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 145.923 98.425)
     (grid_origin 145.923 98.425)
-    (visible_elements 7FF9FFFF)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -638,10 +638,10 @@
       (net 1 +5V))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591B6A05) (tstamp 58F4FEAB)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CA9F0) (tstamp 58F4FEAB)
     (at 146.558 106.68 300)
     (path /58F4F6CF)
-    (fp_text reference J1 (at 0 -0.5 300) (layer B.SilkS)
+    (fp_text reference J1 (at 0 -0.5 300) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 5V (at 0 0.5 300) (layer B.Fab)
@@ -651,10 +651,10 @@
       (net 1 +5V))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591B6A48) (tstamp 58F4FEC4)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CA9C1) (tstamp 58F4FEC4)
     (at 155.2448 98.3996 90)
     (path /58F4FA8B)
-    (fp_text reference J6 (at 0 -0.5 90) (layer B.SilkS)
+    (fp_text reference J6 (at 0 -0.5 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value DO (at 0 0.5 90) (layer B.Fab)
@@ -664,10 +664,10 @@
       (net 6 "Net-(J6-Pad1)"))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591B6A58) (tstamp 58F4FEBF)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CA9C8) (tstamp 58F4FEBF)
     (at 151.4602 98.3996 330)
     (path /58F4F95F)
-    (fp_text reference J5 (at 0 -0.5 330) (layer B.SilkS)
+    (fp_text reference J5 (at 0 -0.5 330) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CO (at 0 0.5 330) (layer B.Fab)
@@ -677,10 +677,10 @@
       (net 5 "Net-(J5-Pad1)"))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591B6A35) (tstamp 58F4FEB0)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CA9E8) (tstamp 58F4FEB0)
     (at 150.749 103.251 30)
     (path /58F4F80A)
-    (fp_text reference J2 (at 0 -0.5 30) (layer B.SilkS)
+    (fp_text reference J2 (at 0 -0.5 30) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value CI (at 0 0.5 30) (layer B.Fab)
@@ -690,10 +690,10 @@
       (net 3 "Net-(J2-Pad1)"))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591B6A29) (tstamp 58F4FEB5)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CA9E1) (tstamp 58F4FEB5)
     (at 152.527 105.029)
     (path /58F4F86F)
-    (fp_text reference J3 (at 0 -0.5) (layer B.SilkS)
+    (fp_text reference J3 (at 0 -0.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value DI (at 0 0.5) (layer B.Fab)
@@ -703,10 +703,10 @@
       (net 4 "Net-(J3-Pad1)"))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591B6A12) (tstamp 58F4FEBA)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CA9F9) (tstamp 58F4FEBA)
     (at 146.5326 103.4542 150)
     (path /58F4F8AE)
-    (fp_text reference J4 (at 0 -0.5 150) (layer B.SilkS)
+    (fp_text reference J4 (at 0 -0.5 150) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value GND (at 0 0.5 150) (layer B.Fab)
@@ -767,10 +767,10 @@
     (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 58FA5B17) (tstamp 59219AE8)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CAA08) (tstamp 59219AE8)
     (at 144.145 106.68)
     (path /591B6128)
-    (fp_text reference J7 (at 0 -0.5) (layer B.SilkS)
+    (fp_text reference J7 (at 0 -0.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 5V (at 0 0.5) (layer B.Fab)
@@ -780,10 +780,10 @@
       (net 1 +5V))
   )
 
-  (module Pete:solder_pad_2 (layer B.Cu) (tedit 58FA5B17) (tstamp 59219AED)
+  (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CAA02) (tstamp 59219AED)
     (at 144.1196 103.4542)
     (path /591B61AE)
-    (fp_text reference J8 (at 0 -0.5) (layer B.SilkS)
+    (fp_text reference J8 (at 0 -0.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value GND (at 0 0.5) (layer B.Fab)
