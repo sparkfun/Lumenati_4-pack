@@ -301,7 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3250 3200 3250
 Text Notes 10600 7650 0    60   ~ 0
-v02
+v10
 Text Notes 8200 7650 0    60   ~ 0
 5/8/17
 $Comp
@@ -450,7 +450,7 @@ Text Notes 7280 7246 0    61   ~ 0
 Text Notes 7380 7244 0    61   ~ 0
 1
 Text Notes 7380 7496 0    61   ~ 0
-HiBeam 4-pack
+Lumenati 4-pack
 $Comp
 L SFE_LOGO_NAME_FLAME.1_INCH LOGO1
 U 1 1 591F24D0
