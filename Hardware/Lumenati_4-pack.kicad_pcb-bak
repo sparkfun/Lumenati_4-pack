@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -68,7 +68,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 145.923 98.425)
     (grid_origin 145.923 98.425)
-    (visible_elements 7FF87FFF)
+    (visible_elements 7FF9FFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -877,7 +877,7 @@
   )
   (gr_line (start 135.1026 111.76) (end 135.1026 101.6) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 156.7434 111.76) (end 156.7434 101.6) (angle 90) (layer Dwgs.User) (width 0.2))
-  (gr_text v02 (at 136.1694 98.3488 270) (layer B.Cu)
+  (gr_text v10 (at 136.1694 98.3488 270) (layer B.Cu)
     (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
   )
   (gr_text "Lumenati 4-pack" (at 145.796 93.6752) (layer B.SilkS)
