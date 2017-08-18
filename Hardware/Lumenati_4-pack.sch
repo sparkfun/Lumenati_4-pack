@@ -28,10 +28,37 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:apa102c
+LIBS:SparkFun-Aesthetics - Copy
 LIBS:SparkFun-Aesthetics
-LIBS:HiBeam_4-pack_v02-cache
-EELAYER 26 0
+LIBS:SparkFun-Batteries
+LIBS:SparkFun-Boards
+LIBS:SparkFun-Capacitors
+LIBS:SparkFun-Clocks
+LIBS:SparkFun-Coils
+LIBS:SparkFun-Connectors
+LIBS:SparkFun-DiscreteSemi
+LIBS:SparkFun-Displays
+LIBS:SparkFun-Electromechanical
+LIBS:SparkFun-Fuses
+LIBS:SparkFun-GPS
+LIBS:SparkFun-Hardware
+LIBS:SparkFun-IC-Amplifiers
+LIBS:SparkFun-IC-Comms
+LIBS:SparkFun-IC-Conversion
+LIBS:SparkFun-IC-Logic
+LIBS:SparkFun-IC-Memory
+LIBS:SparkFun-IC-Microcontroller
+LIBS:SparkFun-IC-Power
+LIBS:SparkFun-IC-Special-Function
+LIBS:SparkFun-Jumpers
+LIBS:SparkFun-LED
+LIBS:SparkFun-PowerSymbols
+LIBS:SparkFun-Resistors
+LIBS:SparkFun-RF
+LIBS:SparkFun-Sensors
+LIBS:SparkFun-Switches
+LIBS:Lumenati_4-pack-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -471,6 +498,30 @@ F 1 "OSHW-LOGOMINI" H 6400 7250 50  0001 C CNN
 F 2 "" H 6430 7400 20  0001 C CNN
 F 3 "" H 6400 7250 60  0001 C CNN
 	1    6400 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL1X2 FD1
+U 1 1 5996EFF1
+P 11050 6200
+F 0 "FD1" H 11050 6300 45  0001 C CNN
+F 1 "FIDUCIAL1X2" H 11050 6100 45  0001 C CNN
+F 2 "FIDUCIAL-1X2" H 11050 6350 20  0001 C CNN
+F 3 "" H 11050 6200 60  0001 C CNN
+F 4 "XXX-00000" H 11050 6400 60  0001 C CNN "Field4"
+	1    11050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L FIDUCIAL1X2 FD2
+U 1 1 5996F030
+P 11050 6400
+F 0 "FD2" H 11050 6500 45  0001 C CNN
+F 1 "FIDUCIAL1X2" H 11050 6300 45  0001 C CNN
+F 2 "FIDUCIAL-1X2" H 11050 6550 20  0001 C CNN
+F 3 "" H 11050 6400 60  0001 C CNN
+F 4 "XXX-00000" H 11050 6600 60  0001 C CNN "Field4"
+	1    11050 6400
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
