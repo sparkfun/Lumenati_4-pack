@@ -1,8 +1,8 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
-    (links 988)
-    (no_connects 288)
+    (links 0)
+    (no_connects 0)
     (area 9.972149 9.982999 141.909001 141.924948)
     (thickness 1.6)
     (drawings 662)
@@ -15,7 +15,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -63,7 +63,7 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 0.635 0.635)
+    (pad_size 2 2)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 145.923 98.425)
@@ -1539,7 +1539,7 @@
       (net 6 "Net-(J6-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF633) (tstamp 598E6125)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E6125)
     (at 107.4166 117.6274)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -1550,7 +1550,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E6121)
@@ -1712,7 +1712,7 @@
       (net 9 "Net-(U2-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF626) (tstamp 598E60F5)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E60F5)
     (at 131.8006 117.6274)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -1723,7 +1723,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E60DE)
@@ -1946,7 +1946,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF62B) (tstamp 598E60A1)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E60A1)
     (at 117.6782 131.7498)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -1957,7 +1957,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E6094)
@@ -2277,7 +2277,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF63A) (tstamp 598E5FE6)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5FE6)
     (at 93.2942 131.7498)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -2288,7 +2288,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E5FCF)
@@ -2454,7 +2454,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF641) (tstamp 598E5F99)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5F99)
     (at 83.0326 117.6274)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -2465,7 +2465,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E5F82)
@@ -2654,7 +2654,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF646) (tstamp 598E5F3C)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5F3C)
     (at 68.9102 131.7498)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -2665,7 +2665,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E5F2F)
@@ -2840,7 +2840,7 @@
       (net 7 "Net-(U1-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF65E) (tstamp 598E5ED6)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5ED6)
     (at 20.1422 131.7498)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -2851,7 +2851,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 598E5EC9)
@@ -3009,7 +3009,7 @@
       (net 11 "Net-(U3-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF64B) (tstamp 598E5E86)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5E86)
     (at 58.6486 117.6274)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -3020,7 +3020,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E5E6F)
@@ -3168,7 +3168,7 @@
       (xy 0.88646 0.23114)) (layer F.SilkS) (width 0.01))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF651) (tstamp 598E5E4D)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5E4D)
     (at 44.5262 131.7498)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -3179,7 +3179,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E5E40)
@@ -3453,7 +3453,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF656) (tstamp 598E5DCC)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5DCC)
     (at 34.2646 117.6274)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -3464,7 +3464,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E5DC8)
@@ -4894,7 +4894,7 @@
       (net 6 "Net-(J6-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF675) (tstamp 598E59AE)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E59AE)
     (at 107.4166 93.2434)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -4905,7 +4905,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E59AA)
@@ -5067,7 +5067,7 @@
       (net 9 "Net-(U2-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF66C) (tstamp 598E597E)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E597E)
     (at 131.8006 93.2434)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -5078,7 +5078,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E5967)
@@ -5301,7 +5301,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF670) (tstamp 598E592A)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E592A)
     (at 117.6782 107.3658)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -5312,7 +5312,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E591D)
@@ -5632,7 +5632,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF67A) (tstamp 598E586F)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E586F)
     (at 93.2942 107.3658)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -5643,7 +5643,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E5858)
@@ -5809,7 +5809,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF67F) (tstamp 598E5822)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5822)
     (at 83.0326 93.2434)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -5820,7 +5820,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E580B)
@@ -6009,7 +6009,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF683) (tstamp 598E57C5)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E57C5)
     (at 68.9102 107.3658)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -6020,7 +6020,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E57B8)
@@ -6195,7 +6195,7 @@
       (net 7 "Net-(U1-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF697) (tstamp 598E575F)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E575F)
     (at 20.1422 107.3658)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -6206,7 +6206,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 598E5752)
@@ -6364,7 +6364,7 @@
       (net 11 "Net-(U3-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF688) (tstamp 598E570F)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E570F)
     (at 58.6486 93.2434)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -6375,7 +6375,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E56F8)
@@ -6523,7 +6523,7 @@
       (xy 0.88646 0.23114)) (layer F.SilkS) (width 0.01))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF68C) (tstamp 598E56D6)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E56D6)
     (at 44.5262 107.3658)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -6534,7 +6534,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E56C9)
@@ -6808,7 +6808,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF690) (tstamp 598E5655)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5655)
     (at 34.2646 93.2434)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -6819,7 +6819,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E5651)
@@ -8249,7 +8249,7 @@
       (net 6 "Net-(J6-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF550) (tstamp 598E5237)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5237)
     (at 107.4166 68.8594)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -8260,7 +8260,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E5233)
@@ -8422,7 +8422,7 @@
       (net 9 "Net-(U2-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF6A8) (tstamp 598E5207)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E5207)
     (at 131.8006 68.8594)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -8433,7 +8433,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E51F0)
@@ -8656,7 +8656,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF6AC) (tstamp 598E51B3)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E51B3)
     (at 117.6782 82.9818)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -8667,7 +8667,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E51A6)
@@ -8987,7 +8987,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF54C) (tstamp 598E50F8)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E50F8)
     (at 93.2942 82.9818)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -8998,7 +8998,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E50E1)
@@ -9164,7 +9164,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF545) (tstamp 598E50AB)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E50AB)
     (at 83.0326 68.8594)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -9175,7 +9175,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E5094)
@@ -9364,7 +9364,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF53F) (tstamp 598E504E)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E504E)
     (at 68.9102 82.9818)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -9375,7 +9375,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E5041)
@@ -9550,7 +9550,7 @@
       (net 7 "Net-(U1-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF525) (tstamp 598E4FE8)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4FE8)
     (at 20.1422 82.9818)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -9561,7 +9561,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 598E4FDB)
@@ -9719,7 +9719,7 @@
       (net 11 "Net-(U3-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF538) (tstamp 598E4F98)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4F98)
     (at 58.6486 68.8594)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -9730,7 +9730,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E4F81)
@@ -9878,7 +9878,7 @@
       (xy 0.88646 0.23114)) (layer F.SilkS) (width 0.01))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF532) (tstamp 598E4F5F)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4F5F)
     (at 44.5262 82.9818)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -9889,7 +9889,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E4F52)
@@ -10163,7 +10163,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF52B) (tstamp 598E4EDE)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4EDE)
     (at 34.2646 68.8594)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -10174,7 +10174,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E4EDA)
@@ -11604,7 +11604,7 @@
       (net 6 "Net-(J6-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF50E) (tstamp 598E4AC0)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4AC0)
     (at 107.4166 44.4754)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -11615,7 +11615,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E4ABC)
@@ -11777,7 +11777,7 @@
       (net 9 "Net-(U2-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF519) (tstamp 598E4A90)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4A90)
     (at 131.8006 44.4754)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -11788,7 +11788,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E4A79)
@@ -12011,7 +12011,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF514) (tstamp 598E4A3C)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4A3C)
     (at 117.6782 58.5978)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -12022,7 +12022,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E4A2F)
@@ -12342,7 +12342,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF507) (tstamp 598E4981)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4981)
     (at 93.2942 58.5978)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -12353,7 +12353,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E496A)
@@ -12519,7 +12519,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF502) (tstamp 598E4934)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4934)
     (at 83.0326 44.4754)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -12530,7 +12530,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E491D)
@@ -12719,7 +12719,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4FD) (tstamp 598E48D7)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E48D7)
     (at 68.9102 58.5978)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -12730,7 +12730,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E48CA)
@@ -12905,7 +12905,7 @@
       (net 7 "Net-(U1-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF600) (tstamp 598E4871)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4871)
     (at 20.1422 58.5978)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -12916,7 +12916,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:STAND-OFF_115_2 (layer F.Cu) (tedit 59160095) (tstamp 598E4864)
@@ -13074,7 +13074,7 @@
       (net 11 "Net-(U3-Pad6)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4F7) (tstamp 598E4821)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4821)
     (at 58.6486 44.4754)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -13085,7 +13085,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:0603_revised (layer F.Cu) (tedit 5914AE47) (tstamp 598E480A)
@@ -13233,7 +13233,7 @@
       (xy 0.88646 0.23114)) (layer F.SilkS) (width 0.01))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4F2) (tstamp 598E47E8)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E47E8)
     (at 44.5262 58.5978)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -13244,7 +13244,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E47DB)
@@ -13518,7 +13518,7 @@
       (net 1 +5V))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF609) (tstamp 598E4767)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E4767)
     (at 34.2646 44.4754)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -13529,7 +13529,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module SparkFun:SFE_LOGO_FLAME_.1 (layer F.Cu) (tedit 200000) (tstamp 598E4763)
@@ -13847,7 +13847,7 @@
       (net 3 "Net-(J2-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4C7) (tstamp 598E3D66)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E3D66)
     (at 131.8006 20.0914)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -13858,7 +13858,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3D59)
@@ -14074,7 +14074,7 @@
       (net 4 "Net-(J3-Pad1)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4C2) (tstamp 598E3D1C)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E3D1C)
     (at 117.6782 34.2138)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -14085,7 +14085,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3D0F)
@@ -14518,7 +14518,7 @@
       (net 3 "Net-(J2-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4BD) (tstamp 598E3BE7)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E3BE7)
     (at 107.4166 20.0914)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -14529,7 +14529,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3BDA)
@@ -14745,7 +14745,7 @@
       (net 4 "Net-(J3-Pad1)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4B8) (tstamp 598E3B9D)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E3B9D)
     (at 93.2942 34.2138)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -14756,7 +14756,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3B90)
@@ -15189,7 +15189,7 @@
       (net 3 "Net-(J2-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4B4) (tstamp 598E3A68)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E3A68)
     (at 83.0326 20.0914)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -15200,7 +15200,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3A5B)
@@ -15416,7 +15416,7 @@
       (net 4 "Net-(J3-Pad1)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4AE) (tstamp 598E3A1E)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E3A1E)
     (at 68.9102 34.2138)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -15427,7 +15427,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3A11)
@@ -15860,7 +15860,7 @@
       (net 3 "Net-(J2-Pad1)"))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4A9) (tstamp 598E38E9)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E38E9)
     (at 58.6486 20.0914)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -15871,7 +15871,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E38DC)
@@ -16087,7 +16087,7 @@
       (net 4 "Net-(J3-Pad1)") (solder_mask_margin 0.1016))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF4A3) (tstamp 598E389F)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 598E389F)
     (at 44.5262 34.2138)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -16098,7 +16098,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:APA102_3 (layer F.Cu) (tedit 591CA5E4) (tstamp 598E3892)
@@ -16870,7 +16870,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.921 2.921) (drill 2.921) (layers *.Cu *.Mask))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF439) (tstamp 592185A3)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 592185A3)
     (at 34.2646 20.0914)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -16881,10 +16881,10 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 599AF42F) (tstamp 592185AC)
+  (module SparkFun:FIDUCIAL-MICRO (layer F.Cu) (tedit 200000) (tstamp 592185AC)
     (at 20.1422 34.2138)
     (descr "FIDUCIAL - CIRCLE, 0.25IN")
     (tags "FIDUCIAL - CIRCLE, 0.25IN")
@@ -16895,7 +16895,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Mask))
+    (pad 1 smd circle (at 0 0) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask))
   )
 
   (module Pete:solder_pad_2 (layer B.Cu) (tedit 591CAA08) (tstamp 59219AE8)
@@ -16924,7 +16924,7 @@
       (net 2 GND))
   )
 
-  (module Aesthetics:FIDUCIAL-FRAME-1_5MM (layer F.Cu) (tedit 599AF665) (tstamp 59939956)
+  (module Aesthetics:FIDUCIAL-FRAME-1_5MM (layer F.Cu) (tedit 59724755) (tstamp 59939956)
     (at 13.97 134.112)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16935,11 +16935,11 @@
     (fp_text value Val** (at 0 2.54) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Mask)
+    (pad 1 smd circle (at 0 0) (size 1.5 1.5) (layers F.Cu F.Paste F.Mask)
       (solder_mask_margin 0.1016))
   )
 
-  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 599AF4CB) (tstamp 5995BB62)
+  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 200000) (tstamp 5995BB62)
     (at 137.033 18.796)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16950,11 +16950,11 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask)
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask)
       (solder_mask_margin 0.1016))
   )
 
-  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 599AF620) (tstamp 5995BB67)
+  (module Aesthetics:FIDUCIAL-1X2 (layer F.Cu) (tedit 200000) (tstamp 5995BB67)
     (at 137.033 133.223)
     (descr "FIDUCIAL - CIRCLE, 1MM")
     (tags "FIDUCIAL - CIRCLE, 1MM")
@@ -16965,7 +16965,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Mask)
+    (pad 1 smd circle (at 0 0) (size 0.99822 0.99822) (layers F.Cu F.Paste F.Mask)
       (solder_mask_margin 0.1016))
   )
 
