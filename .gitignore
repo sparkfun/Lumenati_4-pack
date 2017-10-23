@@ -61,6 +61,17 @@ local.properties
 *.lck
 
 
+#############
+## KiCad
+#############
+
+*cache.lib
+*.kicad_pcb-bak
+*.net
+*.gbr
+*.drl
+
+
 #################
 ## Visual Studio
 #################
